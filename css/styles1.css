@@ -1,0 +1,96 @@
+/* --------------------- */
+/* Constraints & Styling */
+
+.title {
+  margin: 40px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: lightgray;
+}
+
+.banner {
+  margin: 0px 40px;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.title div img {
+  max-width: 100px;
+}
+
+.title-text {
+  font-size: 60px;
+  color: #2d3c49;
+}
+
+.subtitle-text {
+  font-size: 20px;
+  text-align: center;
+  color: #2d3c49;
+}
+
+.app {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20px;
+}
+
+.app div {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .name {
+    margin-top: 40px;
+  }
+}
+
+/* Featured Work */
+h2 {
+  margin: 40px;
+  color: #7d97ad;
+}
+
+h3 {
+  color: #2d3c49;
+}
+
+.work {
+  margin: 40px;
+}
+
+.featured-image {
+  display: block;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.proj-text {
+  margin: 20px 0px;
+}
+.work-element {
+  padding: 0px 50px;
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+/* ------------- */
+/* Set Box Rules */
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/** {
+   outline: 1px solid red !important;
+}*/
