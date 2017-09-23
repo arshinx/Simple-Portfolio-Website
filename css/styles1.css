@@ -75,9 +75,12 @@ h3 {
   padding: 0px 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   h3 {
     font-size: 15px;
+  }
+  .featured-image {
+    max-height: 120px;
   }
 }
 
