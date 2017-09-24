@@ -63,9 +63,8 @@ h3 {
 }
 
 .featured-image {
-  display: block;
   max-width: 100%;
-  max-height: 200px;
+  height: auto;
 }
 
 .proj-text {
@@ -84,6 +83,13 @@ h3 {
   }
 }
 
+
+@media (min-width: 769px) {
+
+  .featured-image {
+    max-height: 200px;
+  }
+}
 /* ------------- */
 /* Set Box Rules */
 
