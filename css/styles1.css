@@ -74,6 +74,15 @@ h3 {
   padding: 0px 50px;
 }
 
+/* Footer */
+footer {
+  margin: 40px;
+}
+
+footer blockquote {
+  text-align: center;
+}
+
 /* iPad Sizing, and below */
 @media (max-width: 768px) {
   h3 {
