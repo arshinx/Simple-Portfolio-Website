@@ -78,18 +78,9 @@ h3 {
   h3 {
     font-size: 15px;
   }
-  .featured-image {
-    max-height: 120px;
-  }
+
 }
 
-
-@media (min-width: 769px) {
-
-  .featured-image {
-    max-height: 200px;
-  }
-}
 /* ------------- */
 /* Set Box Rules */
 
