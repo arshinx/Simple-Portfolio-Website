@@ -74,11 +74,11 @@ h3 {
   padding: 0px 50px;
 }
 
+/* iPad Sizing, and below */
 @media (max-width: 768px) {
   h3 {
     font-size: 15px;
   }
-
 }
 
 /* ------------- */
@@ -91,6 +91,7 @@ h3 {
   box-sizing: border-box;
 }
 
+/* For testing purposes, add outline to see boxes */
 /** {
    outline: 1px solid red !important;
 }*/
